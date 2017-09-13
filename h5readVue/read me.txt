@@ -1,0 +1,35 @@
+新的vue中引入了element ui
+
+
+
+1.安装，这里有关几个步骤
+npm install -g vue-cli   (这一步在新建的时候还是要加上的)
+(引入)
+  
+vue init webpack i-love-vue
+
+(创建目录文件)
+cd i-love-vue
+
+(需要先打开)
+cnpm install  (由于npm太慢)
+(引入node)
+npm run dev
+(开始)
+
+这里记得在eslint的地方不用安装，点击n就可以了
+下面是一些经常使用的
+npm install node-sass --save
+
+
+npm install sass-loader --save
+
+
+npm install vuex --save
+
+
+npm install vue-resource --save  (相当于是ajax插件，这里也可以使用axios)
+npm install axios --save
+
+引入eleme组件
+http://element.eleme.io/#/zh-CN/component/message
